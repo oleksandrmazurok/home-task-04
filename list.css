@@ -1,0 +1,101 @@
+
+body{
+    max-width: 7000px;
+    min-width: 400px;
+    background: #3B3F45;
+    font-family: 'Trebuchet MS', Trebuchet, Arial, sans-serif;
+
+}
+
+header {
+    background: #4A4F56;
+    text-align: center;
+    color: #DE736B;
+}
+
+header>p:after{
+    content: "!";
+    font-size: 25px;
+}
+h1{
+    margin-bottom: 0;
+    padding-top: 15px;
+}
+h1+p{
+    font-size: 18px;
+    margin-top: 0;
+    padding-bottom: 15px}
+
+main{
+    position: relative;
+    margin-top: 40px;
+
+}
+
+.checkbox{
+
+    width: 445px;
+    margin: 0 auto;
+    color: #EAD7C7;
+}
+
+.an:nth-child(7n-6){ background: #88839E;}
+.an:nth-child(7n-5){background: #7A7593;}
+.an:nth-child(7n-4){ background: #88839E;}
+.an:nth-child(7n-3){background: #7A7593;}
+.an:nth-child(7n-2){ background: #88839E;}
+.an:nth-child(7n-1){background: #7A7593;}
+
+.pad{padding: 8px 8px}
+
+.size-9{
+    font-size: 9px;
+
+}
+
+
+.an{
+    height: 43px;
+}
+[class="pad"]:hover {
+    transition: all .3s ease-in;
+    background: #625E77;
+    border-top:1px solid #FFFFFF;
+    border-bottom:1px solid #FFFFFF;
+    height: 25px;
+    color: #F0D6B7;
+}
+
+[class="pad"]:active{
+    background: #EAD7C7;
+    border:1px solid #FFFFFF;
+    color: #DE736B;
+}
+
+
+input:checked ~span {
+    text-decoration: line-through;
+
+}
+
+#bef{
+    content: "&and_&or;";
+}
+
+.bon{
+
+    margin: 25px auto;
+    width: 445px;
+    background: #4A4F56;
+
+}
+
+button{
+font-size: 18px;
+
+    background: #4A4F56;
+    color: #DE736B;
+width: 445px;
+height: 50px;
+    border: none;
+}
